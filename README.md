@@ -20,8 +20,7 @@ D1. Having a dict with multiple entries, write a function that deletes all entri
 {1: 1}
 ```
 
-## Bit logic
-
+## Bitwise operations
 BL1. Given a value `0b1100`. Write a function that shifts the given value to the left, takes a most left shifted bit and adds it to the right. Example:
 ```python
 >>> value = '0b1100'
