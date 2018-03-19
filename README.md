@@ -19,3 +19,12 @@ D1. Having a dict with multiple entries, write a function that deletes all entri
 >>> new_d
 {1: 1}
 ```
+
+## Bit logic
+
+BL1. Given a value `0b1000`. Write a function that shifts the given value to the left, takes a shifted bit and adds it to the right. Example:
+```python
+>>> value = 0b1100
+>>> bin(shift_left(value))
+'0b1001'
+```
