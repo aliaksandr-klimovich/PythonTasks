@@ -22,6 +22,8 @@ D1. Having a dict with multiple entries, write a function that deletes all entri
 {1: 1}
 ```
 
+D2. Think about how to implement `switch`-`case` statement using python dict, the alternative way to use `if`-`elif`-`else`.
+
 
 ## Bitwise operations
 
