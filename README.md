@@ -3,7 +3,15 @@
 
 ## List
 
-L1. Having nested lists write a function `flatten` that composes one flat list from all nested lists. 
+L1. Write a function that removes all duplicates from list. Exmaple:
+```python
+>>> remove_duplicates([2, 1, 2, 1, 5, 0, 4, 0, 0, 2])
+[2, 1, 5, 0, 4]
+```
+L1.1. Returning list is not obligatory.
+L1.2. Final list should not be sorted (preserve original object sequence).
+
+L2. Having nested lists write a function `flatten` that composes one flat list from all nested lists. 
 The depth of nesting can be random. Example:
 ```python
 >>> l = [1, [2, 3], [4, [5], 6]]
