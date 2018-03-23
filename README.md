@@ -19,6 +19,8 @@ The depth of nesting can be random. Example:
 [1, 2, 3, 4, 5, 6]
 ```
 
+L3. Print first 10 elements of the Fibonacci sequence starting from (0, 1).
+
 
 ## Dict
 
