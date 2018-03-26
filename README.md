@@ -19,6 +19,16 @@ The depth of nesting can be random. Example:
 [1, 2, 3, 4, 5, 6]
 ```
 
+L3. Write a function that returns reduced list. Sibling elements in this list are compressed into one value. Example:
+```python
+>>> getReduced([1, 1, 2, 3, 3])
+[1, 2, 3]
+```
+L3*. Write same function, but pass a parameter to control tolerance. Example:
+```python
+>>> getReduced([1.1, 0.9, 1, 3, 3.3], tolerance=0.2)
+[1.1, 3, 3.3]
+```
 
 
 
