@@ -53,3 +53,6 @@ BL2. Write a function that converts hex representation of RGB color to integers 
 ```
 
 
+## Functions
+
+F1. Implement factorial function.
