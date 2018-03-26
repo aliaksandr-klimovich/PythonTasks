@@ -19,7 +19,7 @@ The depth of nesting can be random. Example:
 [1, 2, 3, 4, 5, 6]
 ```
 
-L3. Print first 10 elements of the Fibonacci sequence starting from (0, 1).
+
 
 
 ## Dict
@@ -56,3 +56,6 @@ BL2. Write a function that converts hex representation of RGB color to integers 
 ## Functions
 
 F1. Implement factorial function.
+
+F2. Print first 10 elements of the Fibonacci sequence starting from (0, 1).
+
