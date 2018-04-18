@@ -1,17 +1,14 @@
 # PythonTasks
 
-
-## List
-
-L1. Write a function that removes all duplicates from list. Exmaple:
+T1. Write a function that removes all duplicates from list. Exmaple:
 ```python
 >>> remove_duplicates([2, 1, 2, 1, 5, 0, 4, 0, 0, 2])
 [2, 1, 5, 0, 4]
 ```
-L1.1. Returning list is not obligatory.
+T1.1. Returning list is not obligatory.
 L1.2. Final list should not be sorted (preserve original object sequence).
 
-L2. Having nested lists write a function `flatten` that composes one flat list from all nested lists. 
+T2. Having nested lists write a function `flatten` that composes one flat list from all nested lists. 
 The depth of nesting can be random. Example:
 ```python
 >>> l = [1, [2, 3], [4, [5], 6]]
@@ -19,22 +16,18 @@ The depth of nesting can be random. Example:
 [1, 2, 3, 4, 5, 6]
 ```
 
-L3. Write a function that returns reduced list. Sibling elements in this list are compressed into one value. Example:
+T3. Write a function that returns reduced list. Sibling elements in this list are compressed into one value. Example:
 ```python
 >>> getReduced([1, 1, 2, 3, 3])
 [1, 2, 3]
 ```
-L3*. Write same function, but pass a parameter to control tolerance. Example:
+T3*. Write same function, but pass a parameter to control tolerance. Example:
 ```python
 >>> getReduced([1.1, 0.9, 1, 3, 3.3], tolerance=0.2)
 [1.1, 3, 3.3]
 ```
 
-
-
-## Dict
-
-D1. Having a dict with multiple entries, write a function that deletes all entries except one that is defined by user. Example:
+T4. Having a dict with multiple entries, write a function that deletes all entries except one that is defined by user. Example:
 ```python
 >>> d = {1:1, 2:2, 3:3}
 >>> new_d = delete_all_entries_from_dict_except_one(d, 1)
@@ -42,19 +35,16 @@ D1. Having a dict with multiple entries, write a function that deletes all entri
 {1: 1}
 ```
 
-D2. Think about how to implement `switch`-`case` statement using python dict, the alternative way to use `if`-`elif`-`else`.
+T5. Think about how to implement `switch`-`case` statement using python dict, the alternative way to use `if`-`elif`-`else`.
 
-
-## Bitwise operations
-
-BL1. Given a value `0b1100`. Write a function that shifts the given value to the left, takes a most left shifted bit and adds it to the right. Example:
+T6. Given a value `0b1100`. Write a function that shifts the given value to the left, takes a most left shifted bit and adds it to the right. Number of bits needs to be passed. Example:
 ```python
 >>> value = '0b1100'
->>> shift_left(value)
+>>> shift_left(value, 4)
 '0b1001'
 ```
 
-BL2. Write a function that converts hex representation of RGB color to integers and visa versa. Example:
+T7. Write a function that converts hex representation of RGB color to integers and visa versa. Example:
 ```python
 >>> convertToInt('#ffcc22')
 (255, 204, 34)
@@ -62,10 +52,6 @@ BL2. Write a function that converts hex representation of RGB color to integers 
 '#ffcc22'
 ```
 
+T8. Implement factorial function.
 
-## Functions
-
-F1. Implement factorial function.
-
-F2. Print first 10 elements of the Fibonacci sequence starting from (0, 1).
-
+T9. Print first 10 elements of the Fibonacci sequence starting from (0, 1). Implement a function.
