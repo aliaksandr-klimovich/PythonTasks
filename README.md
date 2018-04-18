@@ -6,7 +6,7 @@ T1. Write a function that removes all duplicates from list. Exmaple:
 [2, 1, 5, 0, 4]
 ```
 T1.1. Returning list is not obligatory.
-L1.2. Final list should not be sorted (preserve original object sequence).
+T1.2. Final list should not be sorted (preserve original object sequence).
 
 T2. Having nested lists write a function `flatten` that composes one flat list from all nested lists. 
 The depth of nesting can be random. Example:
