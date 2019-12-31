@@ -55,3 +55,16 @@ T7. Write a function that converts hex representation of RGB color to integers a
 T8. Implement factorial function.
 
 T9. Print first 10 elements of the Fibonacci sequence starting from (0, 1). Implement a function.
+
+T10. Implement Version class that can be used as module version checker. Here are some tests:
+```python
+>>> v1 = Version(major=1, minor=2, build=3)
+>>> v2 = Version(1, 2, 3)
+>>> v3 = Version(1, 2, 4)
+>>> v1 == v2
+True
+>>> v1 < v3
+True
+>>> v2 > v3
+False
+```
